@@ -1,0 +1,18 @@
+<extensions>
+  <extension>
+    <!--
+    Used for timeline visualization
+    Disable caching: "-Ddevelocity.cache.local.enabled=false"
+    -->
+    <groupId>com.gradle</groupId>
+    <artifactId>develocity-maven-extension</artifactId>
+    <version>2.3.1</version>
+  </extension>
+
+  <extension>
+    <!-- https://github.com/maven-turbo-reactor/maven-turbo-builder -->
+    <groupId>com.github.seregamorph</groupId>
+    <artifactId>maven-turbo-builder</artifactId>
+    <version>0.13</version>
+  </extension>
+</extensions>
